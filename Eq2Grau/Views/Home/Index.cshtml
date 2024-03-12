@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Bem Vindo";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Equação de 2 Grau</h1>
+    <h4>Determinação das raízes de uma equação de 2º grau</h4>
+</div>
+
+<!-- Este é um comentario que vais ser enviado para o Browser-->
+
+<form>
+<div>
+    <p>
+        Escreva por favor os coeficientes da equação: <br />
+        @* Esta é uma linha de comentário da RAZOR
+            só é vizivel no visual studio
+
+            Nota: Não Esquecer 
+            id -> identificação do objeto a ser lida no javascript (cliente)
+            name -> identificação do objeto a ser lida no servidor
+        *@
+        A: <input type="text" name="A"/> <br />
+        B: <input type="text" name="B" /> <br />
+        C: <input type="text" name="C" /> <br />
+        <input type="submit" value="Calcular" /> 
+    </p>
+</div>
+</form>
